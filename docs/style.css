@@ -1,0 +1,110 @@
+/* 🌌 Galaxy Background Setup */
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(
+    145deg,
+    #02010a 0%,
+    /* Almost black – deep night */ #0a0c2b 30%,
+    /* Navy tone */ #1b2a4a 60%,
+    /* Galaxy blue */ #4a0d0d 85%,
+    /* Deep dark red */ #150404 100% /* Slightly black-red tint */
+  );
+  background-attachment: fixed;
+  color: white;
+  font-family: "Poppins", sans-serif;
+
+  /* Centering content vertically + horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ✨ Heading Styles */
+.h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px rgba(0, 191, 255, 0.6);
+}
+
+.h2 {
+  text-align: center;
+}
+
+.p {
+  text-align: center;
+  font-size: 14px;
+  color: #cccccc;
+}
+
+/* 🪄 Signup Box (Glowing Form Container) */
+.signup-box {
+  width: 350px;
+  height: 450px;
+  padding-top: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  background-color: rgba(10, 20, 40, 0.7); /* semi-transparent bluish tone */
+  border: 1px solid rgba(0, 191, 255, 0.4); /* soft blue border */
+  border-radius: 15px;
+  box-shadow: 0 0 25px rgba(0, 191, 255, 0.15); /* glowing shadow */
+  color: white;
+  text-align: left;
+}
+
+/* 🌟 Signup Button */
+.signup {
+  display: block;
+  width: 50%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 20px auto 0 auto;
+  border: none;
+  border-radius: 30px;
+  background-color: yellow;
+  color: black;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.signup:hover {
+  background-color: white;
+  font-weight: bold;
+  opacity: 1;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+  transform: scale(1.05);
+}
+
+/* 🩵 Input Fields (optional future styling) */
+.input {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.85);
+  color: black;
+  font-size: 14px;
+}
+
+/* ✨ Small Hover Glow for the Box */
+.signup-box:hover {
+  box-shadow: 0 0 40px rgba(0, 191, 255, 0.25);
+  transition: box-shadow 0.3s ease-in-out;
+}
+#errormessage {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
