@@ -81,7 +81,7 @@ Built using **HTML, CSS, and JavaScript**, it includes real-time validation, ani
 ## 🪄 Upcoming Additions
 
 💫 **Login Page Launch — Coming Next!**
-Tomorrow, the login page will be added, featuring:
+The login page will be added soon, featuring:
 
 * Validation against stored credentials
 * Personalized welcome messages
